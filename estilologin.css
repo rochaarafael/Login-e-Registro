@@ -1,0 +1,33 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background:rgb(53, 52, 107);
+    font-size: 18px;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #0e0029;
+    text-align: center;
+}
+
+.caixas {
+    width: 200px;
+    height: 40px;
+    margin: 8px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
